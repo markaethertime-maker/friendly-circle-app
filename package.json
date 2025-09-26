@@ -1,0 +1,33 @@
+{
+  "name": "friendly-circle-app",
+  "version": "1.0.0",
+ "type": "module",
+  "description": "Application web pour l'événement Friendly Circle, construite sur Builder.io.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markaethertime-maker/friendly-circle-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+ 
+  "bugs": {
+    "url": "https://github.com/markaethertime-maker/friendly-circle-app/issues"
+  },
+  "homepage": "https://github.com/markaethertime-maker/friendly-circle-app#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
