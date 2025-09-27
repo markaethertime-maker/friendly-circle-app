@@ -1,0 +1,16 @@
+import express from 'express';
+import cors from 'cors';
+
+export default function createServer() {
+  const app = express();
+
+  app.use(cors());
+  app.use(express.json());
+
+  // Exemple de route test
+  app.get('/api/ping', (req, res) => {
+    res.json({ message: 'PAF, serveur ok !' });
+  });
+
+  return app;
+}
