@@ -1,7 +1,9 @@
 [build]
   publish = "dist/spa"
   command = "npm run build"
-  functions = "netlify/functions"
+
+[functions]
+  directory = "netlify/functions"
 
 [plugins]
   # Pas de plugin Next.js ici
