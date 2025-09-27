@@ -5,6 +5,4 @@
 [functions]
   directory = "netlify/functions"
 
-# Déclaration correcte d'un tableau vide de plugins
-[[plugins]]
 
