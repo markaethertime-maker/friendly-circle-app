@@ -5,6 +5,6 @@
 [functions]
   directory = "netlify/functions"
 
-[plugins]
-  # Pas de plugin Next.js ici
+# Déclaration correcte d'un tableau vide de plugins
+[[plugins]]
 
